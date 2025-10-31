@@ -1,0 +1,92 @@
+Q: What is the Pythagoras theorem?
+A: In a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides. Mathematically: a² + b² = c².
+
+Q: What is the quadratic formula?
+A: For a quadratic equation ax² + bx + c = 0, the roots are given by: x = (-b ± √(b² - 4ac)) / 2a.
+
+Q: What is the derivative of x²?
+A: The derivative of x² with respect to x is 2x.
+
+Q: What is the integral of x²?
+A: The integral of x² with respect to x is (x³ / 3) + C, where C is the constant of integration.
+
+Q: What is the area of a circle?
+A: The area of a circle is given by A = πr², where r is the radius.
+
+Q: What is the circumference of a circle?
+A: The circumference of a circle is given by C = 2πr, where r is the radius.
+
+Q: What is the slope of a line passing through points (x1, y1) and (x2, y2)?
+A: The slope is given by m = (y2 - y1) / (x2 - x1).
+
+Q: What is the formula for simple interest?
+A: Simple Interest = (Principal × Rate × Time) / 100.
+
+Q: What is the formula for compound interest?
+A: Compound Interest = Principal × (1 + Rate/100)^Time - Principal.
+
+Q: What is the derivative of sin(x)?
+A: The derivative of sin(x) is cos(x).
+
+Q: What is the derivative of cos(x)?
+A: The derivative of cos(x) is -sin(x).
+
+Q: What is the integral of sin(x)?
+A: The integral of sin(x) is -cos(x) + C.
+
+Q: What is the integral of cos(x)?
+A: The integral of cos(x) is sin(x) + C.
+
+Q: What is the distance formula in coordinate geometry?
+A: The distance between points (x1, y1) and (x2, y2) is √((x2 - x1)² + (y2 - y1)²).
+
+Q: What is the midpoint formula?
+A: The midpoint of a line joining (x1, y1) and (x2, y2) is ((x1 + x2)/2, (y1 + y2)/2).
+
+Q: What is the sum of the first n natural numbers?
+A: The sum is given by S = n(n + 1)/2.
+
+Q: What is the sum of the first n even numbers?
+A: The sum is n(n + 1).
+
+Q: What is the sum of the first n odd numbers?
+A: The sum is n².
+
+Q: What is the formula for the area of a triangle?
+A: Area = ½ × base × height.
+
+Q: What is the trigonometric identity involving sin²(x) and cos²(x)?
+A: sin²(x) + cos²(x) = 1.
+
+Q: What is the binomial theorem?
+A: The binomial theorem states that (a + b)^n = Σ [nCk * a^(n-k) * b^k], where the summation runs from k = 0 to n.
+
+Q: What is the limit of sin(x)/x as x approaches 0?
+A: The limit of sin(x)/x as x → 0 is 1.
+
+Q: What is the derivative of e^x?
+A: The derivative of e^x with respect to x is e^x.
+
+Q: What is the derivative of ln(x)?
+A: The derivative of ln(x) with respect to x is 1/x.
+
+Q: What is the area under y = x between 0 and 2?
+A: The area is ∫(0 to 2) x dx = [x² / 2]₀² = 2.
+
+Q: What is the perimeter of a rectangle?
+A: The perimeter of a rectangle is 2 × (length + width).
+
+Q: What is the formula for volume of a sphere?
+A: Volume = (4/3)πr³.
+
+Q: What is the surface area of a sphere?
+A: Surface Area = 4πr².
+
+Q: What is the mean of numbers 4, 8, and 12?
+A: Mean = (4 + 8 + 12) / 3 = 8.
+
+Q: What is the median of the numbers 3, 5, 7, 9, 11?
+A: The median is 7.
+
+Q: What is the mode of the numbers 2, 3, 3, 5, 7?
+A: The mode is 3.
