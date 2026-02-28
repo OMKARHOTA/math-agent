@@ -1,33 +1,44 @@
-# backend/utils/mcp_client.py
-import os
-import requests
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
-
-TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "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")
-TAVILY_ENDPOINT = "https://api.tavily.com/search"
-
-def run_mcp(query, k=2):
-    #we are using tavily api for external search
-    headers = {"Content-Type": "application/json"}
-    data = {
-        "api_key": TAVILY_API_KEY,
-        "query": query,
-        "num_results": k
-    }
-
-    try:
-        response = requests.post(TAVILY_ENDPOINT, json=data, headers=headers)
-        response.raise_for_status()
-        results = response.json()
-
-        # Extract and combine content snippets
-        context = " ".join([r.get("content", "") for r in results.get("results", [])])
-        return context.strip() or "No relevant web data found."
-    except Exception as e:
-        print(f" MCP search failed: {e}")
-        return "Web search unavailable."
+from utils.groq_client import run_llm
 
 
+def run_math_agent(question: str) -> str:
+    """
+    Math Agent using Groq LLM.
+    Designed for step-by-step mathematical reasoning.
+    """
+
+    prompt = f"""
+You are a mathematics teacher writing solutions in a notebook.
+
+VERY STRICT OUTPUT RULES (NO EXCEPTIONS):
+- Output must be line-by-line.
+- Press ENTER after EVERY sentence.
+- Press ENTER after EVERY formula.
+- Never write more than one sentence on the same line.
+- Never write formulas inside sentences.
+- Do not write paragraphs.
+- Use plain text only.
+- Do not use markdown, bullets, bold text, or symbols like *, **.
+
+MANDATORY STRUCTURE:
+Title
+
+Assumptions
+(one assumption per line)
+
+Step 1
+(one explanation sentence)
+(one formula)
+
+Step 2
+(one explanation sentence)
+(one formula)
+
+Repeat steps as needed.
+
+Final Answer
+(one formula)
+{question}
+"""
+
+    return run_llm(prompt)

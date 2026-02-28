@@ -8,7 +8,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 
 from agents.routing_agent import route_query as math_agent
 
-FEEDBACK = os.path.join("Backend", "data", "feedback_log.json")
+FEEDBACK = os.path.join("data", "feedback_log.json")
 
 #  DSPy
 lm = dspy.LM("gpt-3.5-turbo")
@@ -103,6 +103,6 @@ def main():
     tuning(query, incorrect_answer=ans, rating=rating)  # PASSED RATING
 
 
-# for testing persopes
+# for testing persopesa
 if __name__ == "__main__":
     main()

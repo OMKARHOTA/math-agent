@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://backend:8000";
+const API_URL = "http://localhost:7860";
 
 // Send user query to backend
 export const sendQuery = async (query) => {

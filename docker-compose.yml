@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   backend:
     build: .
@@ -11,7 +9,19 @@ services:
 
 
   frontend:
-    build: ./Frontend.react-app
+    build:
+      context: ./Frontend/react-app
+      dockerfile: Dockerfile
     ports:
-      - "3000:3000"
-    command: npm star
+      - "3000:80"
+
+  backend_v2:
+    build:
+      context: .
+      dockerfile: Dockerfile.v2
+    container_name: math_agent_v2
+    ports:
+      - "8080:8000"
+    environment:
+      - PORT=8000
+    command: uvicorn main:app --host 0.0.0.0 --port 7860

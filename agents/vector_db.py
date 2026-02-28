@@ -9,8 +9,8 @@ from langchain_community.vectorstores import FAISS
 
 def create_text():
     # Define paths
-    kb_path = os.path.join("Backend", "data")  # your text files folder
-    persist_dir = os.path.join("Backend", "data", "embeddings")
+    kb_path = os.path.join("data")  # your text files folder
+    persist_dir = os.path.join("data", "embeddings")
 
     # if exist
     os.makedirs(kb_path, exist_ok=True)

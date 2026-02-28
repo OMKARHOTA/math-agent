@@ -1,3 +1,4 @@
+sympy
 requests~=2.32.5
 python-dotenv~=1.2.1
 shim~=0.1.0
@@ -10,5 +11,5 @@ pydantic~=2.12.3
 uvicorn~=0.38.0
 sentence-transformers==5.1.2
 faiss-cpu
-
+groq
 
