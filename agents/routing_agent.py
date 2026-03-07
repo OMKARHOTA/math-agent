@@ -33,6 +33,6 @@ def route_query(query: str):
             print("✅ Math solver succeeded!")
             return solver_result
 
-        # ✅ If not solved by FAISS or math solver → Web Search
-        print("🌐 Not found anywhere — going for web search")
-        return "WEB"
+        # ✅ If not solved by FAISS or math solver → LLM
+        print("🌐 Not found anywhere — going for LLM")
+        return "LLM"

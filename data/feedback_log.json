@@ -147,5 +147,25 @@
         "answer": "The derivative of sin x is the rate of change with respect to angle ie, x. The resultant of the derivative of sin x is cos x. Here also we are going to prove the derivative of sin x to be -cos x using the first principle. The derivative of sin x is cos x. Thus, we have proved that the derivative of sin x is cos x. Therefore, the derivative of sin is cos x and is proved by using the quotient rule. Derivative of Sin x Worksheet Therefore, the derivative of sin x is cos x. * The derivative of sin x is cos x. Thus, the derivative of sin 3x is 3 cos 3x. Therefore, the derivative of sin x by first principle is cos x. We know that the derivative of sin x is cos x. So the derivative of sin x2 using this and using the chain rule is cos x2\u00b7 d/dx(x2). The derivative of sin(x) is cos(x). Why? The derivative of any given function is simply the slope of the tangent line to original function ## Derivative of sin x using the First Principle Method f\u2019(x) = limh\u21920 [sin x cos h + cos x sin h \u2013 sin x]/h f\u2019(x) = limh\u21920 [-sin x(1-cosh) + cos x sin h]/h sin (0/2)) + cos x (1) f\u2019(x) = \u2013 sin x(0) + cos x Thus, the derivative of sin x is cos x, is derived. ### Derivative of Sin x Examples Now, we have to find the derivative of sin (x+1), using the 1st principle. Hence, the derivative of sin (x+1), with respect to x is cos (x+1). Find the derivative of sin 2x. **To find:** derivative of sin 2x. Hence, the derivative of sin 2x is 2 cos 2x. : r/calculus : r/calculus Image 1: r/calculus icon Go to calculus r/calculus Image 3: r/calculus iconr/calculus Welcome to r/calculus - a space for learning calculus and related disciplines. We learned in class that the derivative of sin(x) is cos(x). New to Reddit? *   Reddit reReddit: Top posts of October 6, 2016 * * * *   Reddit reReddit: Top posts of October 2016 * * * *   Reddit reReddit: Top posts of 2016 * * * *   Reddit Meta *   Games  *   Gaming News & Discussion *   Other Games *   Action Movies & Series *   Animated Movies & Series *   Comedy Movies & Series *   Romance Movies & Series *   Superhero Movies & Series *   About Reddit *   Best of Reddit",
         "feedback": "liitle bit small",
         "rating": null
+    },
+    {
+        "timestamp": "2026-03-07T18:08:36.330731",
+        "original_input": "WHAT IS DERIVATIVE OF SINX",
+        "parsed_question": null,
+        "retrieved_context": null,
+        "final_answer": "Derivative of Sine Function\n\nAssumptions\n- The function is f(x) = sin(x)\n- The variable x is a real number\n\nStep 1\nTo find the derivative of sin(x), we will use the definition of a derivative as a limit.\nf'(x) = lim(h -> 0) [f(x + h) - f(x)]/h\n\nStep 2\nWe will apply the definition to the sine function, using the angle addition formula for sine.\nf'(x) = lim(h -> 0) [sin(x + h) - sin(x)]/h\n\nStep 3\nUsing the angle addition formula for sine, we can rewrite sin(x + h) as sin(x)cos(h) + cos(x)sin(h).\nf'(x) = lim(h -> 0) [sin(x)cos(h) + cos(x)sin(h) - sin(x)]/h\n\nStep 4\nWe can simplify the expression by canceling out sin(x) and dividing the numerator and denominator by h.\nf'(x) = lim(h -> 0) [cos(h) + cos(x)sin(h)/h - 1]/1\n\nStep 5\nAs h approaches 0, cos(h) approaches 1 and sin(h)/h approaches 1.\nf'(x) = 1",
+        "verifier_outcome": null,
+        "user_feedback": "THE ANSWER SHOULD BE COSX",
+        "rating": "negative"
+    },
+    {
+        "timestamp": "2026-03-07T18:09:56.957106",
+        "original_input": "integration of sinx",
+        "parsed_question": null,
+        "retrieved_context": null,
+        "final_answer": "Integration of Sine Function\n\nAssumptions\nThe function to be integrated is sin(x).\nThe variable of integration is x.\n\nStep 1\nTo integrate sin(x), we can use the basic integration rule.\n\u222bsin(x) dx = -cos(x)\n\nStep 2\nWe can verify this result by differentiating the result from step 1.\nd(-cos(x))/dx = sin(x)\n\nFinal Answer\n\u222bsin(x) dx = -cos(x)",
+        "verifier_outcome": null,
+        "user_feedback": "Good",
+        "rating": "positive"
     }
 ]
